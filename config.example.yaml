@@ -1,0 +1,17 @@
+port: 9005
+
+image:
+  servers:
+    "/avatar": "public/avatar"
+
+check_token: true
+replay_report_url: "" # 将硬件上报在一次发送到别的服务上
+
+skip:
+  task: false
+
+db:
+  host: ""
+  user: ""
+  name: ""
+  password: ""

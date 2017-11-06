@@ -1,0 +1,6 @@
+port: 9005
+
+check_token: false
+# replay_report_url: "http://127.0.0.1:9001/api/jiyin/upload/data" # 将硬件上报在一次发送到别的服务上
+print:
+  res: false
